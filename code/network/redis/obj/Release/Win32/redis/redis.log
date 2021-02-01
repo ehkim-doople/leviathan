@@ -1,4 +1,0 @@
-﻿  NWCommunicator.cpp
-  NWSessionManager.cpp
-  NWSocket.cpp
-  redis.vcxproj -> E:\InfiniA-Library-3.0\network\redis\../../Lib\Win32\Release\redis\hiredisNet.lib
