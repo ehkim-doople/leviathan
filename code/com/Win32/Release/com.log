@@ -1,0 +1,8 @@
+﻿  comCore.cpp
+  comDateTime.cpp
+  comFileUtil.cpp
+  comQSort.cpp
+  comLogger.cpp
+  comMemManager.cpp
+  Generating Code...
+  com.vcxproj -> E:\InfiniA-Library-3.0\com\../Lib\Win32\Release\ehcom.lib

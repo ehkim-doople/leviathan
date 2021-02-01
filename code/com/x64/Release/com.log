@@ -1,0 +1,6 @@
+﻿  comCore.cpp
+  comFileUtil.cpp
+  comQSort.cpp
+  comLogger.cpp
+  Generating Code...
+  com.vcxproj -> E:\InfiniA-Library-3.0\com\../lib/x64/Release\ehcom.lib
