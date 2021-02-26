@@ -1,0 +1,51 @@
+[2021/02/26 21:08:09.283] [ERROR]  Does not mactch!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default.log, m_nFileSize[1268249] nSize[0] 
+[2021/02/26 21:08:09.306] [INFO]  parsing complete!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default.log, nLineCount[17345] 
+[2021/02/26 21:08:09.306] [INFO]  [2021/02/26 21:07:38.370] [ERROR]  OP_RECVCOPLETE WSAGetLastError[995] bSuccess[0] nBytesTrans[0]  
+### REPORT ### 
+
+  Analyzer run time : [0]hours [0]minutes [0]seconds [155]milliseconds
+  Duration of log accumulation : [0] days [0]hours [12]minutes [3]seconds [913]milliseconds
+
+
+################################################# 
+  KeyValue Report : 
+################################################# 
+Key[Parameter proc]	nTotCount[6000] Average[6.764167] Max[63] min[0] : 
+	correction: nExpectedCount[6000] Difference[0] ratio[100.000000] 
+		KeyValue[procTotTime] report : nValue[15] nTotCount[863] percent[14.383334]
+		KeyValue[procTotTime] report : nValue[16] nTotCount[1490] percent[24.833334]
+		KeyValue[procTotTime] report : nValue[0] nTotCount[3528] percent[58.799999]
+		KeyValue[procTotTime] report : nValue[31] nTotCount[84] percent[1.400000]
+		KeyValue[procTotTime] report : nValue[63] nTotCount[1] percent[0.016667]
+		KeyValue[procTotTime] report : nValue[32] nTotCount[31] percent[0.516667]
+		KeyValue[procTotTime] report : nValue[47] nTotCount[3] percent[0.050000]
+
+Key[Event proc]	nTotCount[1800] Average[0.354444] Max[31] min[0] : 
+	correction: nExpectedCount[1800] Difference[0] ratio[100.000000] 
+		KeyValue[procTotTime] report : nValue[0] nTotCount[1760] percent[97.777779]
+		KeyValue[procTotTime] report : nValue[15] nTotCount[17] percent[0.944444]
+		KeyValue[procTotTime] report : nValue[16] nTotCount[22] percent[1.222222]
+		KeyValue[procTotTime] report : nValue[31] nTotCount[1] percent[0.055556]
+
+Key[threadSend]	nTotCount[191] Average[15.659686] Max[16] min[0] : 
+	correction: nExpectedCount[7800] Difference[-7609] ratio[2.448718] 
+		KeyValue[procTime] report : nValue[16] nTotCount[126] percent[65.968582]
+		KeyValue[procTime] report : nValue[15] nTotCount[65] percent[34.031414]
+
+Key[CComunicator::Send]	nTotCount[1539] Average[15.708252] Max[47] min[0] : 
+	correction: nExpectedCount[7800] Difference[-6261] ratio[19.730768] 
+		KeyValue[procTime] report : nValue[15] nTotCount[588] percent[38.206627]
+		KeyValue[procTime] report : nValue[16] nTotCount[943] percent[61.273556]
+		KeyValue[procTime] report : nValue[31] nTotCount[4] percent[0.259909]
+		KeyValue[procTime] report : nValue[47] nTotCount[1] percent[0.064977]
+		KeyValue[procTime] report : nValue[32] nTotCount[3] percent[0.194932]
+
+
+
+################################################# 
+  ExtractNToFile Report : 
+################################################# 
+
+[0] Extract Report : keyword[ERROR] nTotCount[3]
+[1] Extract Report : keyword[WSA_IO_PENDING] nTotCount[2]
+[2] Extract Report : keyword[SendComplete] nTotCount[7801]
