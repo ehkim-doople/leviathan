@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+*.iobj
+*.iobj
+*.ipdb
+*.tlog
+*.iobj
+project/bin/Win32/Release/LogAnalysor3.iobj
+project/bin/Win32/Release/LogAnalysor3.ipdb

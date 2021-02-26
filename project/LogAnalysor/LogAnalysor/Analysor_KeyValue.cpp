@@ -219,7 +219,7 @@ void CAnalysor_KeyValue::report(CLogger *pLogger)
 				nDiff = pLine->nTotalLine - pLine->nTotCnt_expected;
 				fRatio = ((float)pLine->nTotalLine / (float)pLine->nTotCnt_expected) * 100.0f;
 				fAvg = 
-				nPos += sprintf(szBuf + nPos, "	correction: nExpectedCount[%d] Difference[%d] ratio[%f] Average[%f]\n", pLine->nTotCnt_expected, nDiff, fRatio);
+				nPos += sprintf(szBuf + nPos, "	correction: nExpectedCount[%d] Difference[%d] ratio[%f] \n", pLine->nTotCnt_expected, nDiff, fRatio);
 			}
 			j = 0;	
 			if (pLine->m_pUnitDataList) {

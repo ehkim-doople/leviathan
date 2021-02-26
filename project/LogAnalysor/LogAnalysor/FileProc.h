@@ -17,4 +17,5 @@ private :
 	unsigned int m_nFileSize;
 	STBuf m_szFileBuf;
 	STLine m_szLine;
+	char *m_pFilePathName;
 };

@@ -37,3 +37,15 @@ Key[threadSend]	nTotCount[13974] Average[15.616645] Max[16] min[0] :
 
 [0] Extract Report : keyword[ERROR] nTotCount[0]
 [1] Extract Report : keyword[WSA_IO_PENDING] nTotCount[0]
+[2021/02/26 20:46:58.440] [INFO]  parsing complete!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default_2.log, nLineCount[67253] 
+[2021/02/26 20:46:58.440] [INFO]  [2021/02/26 17:22:00.143] [INFO] [60923] Parameter proc time procTotTime[0]milliseconds 
+[2021/02/26 20:46:58.582] [INFO]  parsing complete!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default_3.log, nLineCount[67688] 
+[2021/02/26 20:46:58.582] [INFO]  [2021/02/26 18:03:00.022] [INFO] [90295] Parameter proc time procTotTime[0]milliseconds 
+[2021/02/26 20:46:58.723] [INFO]  parsing complete!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default_4.log, nLineCount[67256] 
+[2021/02/26 20:46:58.723] [INFO]  [2021/02/26 18:44:00.061] [INFO] [119979] Parameter proc time procTotTime[16]milliseconds 
+[2021/02/26 20:48:09.363] [INFO]  parsing complete!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default_2.log, nLineCount[67253] 
+[2021/02/26 20:48:09.363] [INFO]  [2021/02/26 17:22:00.143] [INFO] [60923] Parameter proc time procTotTime[0]milliseconds 
+[2021/02/26 20:48:09.512] [INFO]  parsing complete!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default_3.log, nLineCount[67688] 
+[2021/02/26 20:48:09.512] [INFO]  [2021/02/26 18:03:00.022] [INFO] [90295] Parameter proc time procTotTime[0]milliseconds 
+[2021/02/26 20:48:09.655] [INFO]  parsing complete!  E:\InfiniA-Library-3.0\bin\Win32\Release\2.0\InfiniALog\Library_Default_4.log, nLineCount[67256] 
+[2021/02/26 20:48:09.655] [INFO]  [2021/02/26 18:44:00.061] [INFO] [119979] Parameter proc time procTotTime[16]milliseconds 

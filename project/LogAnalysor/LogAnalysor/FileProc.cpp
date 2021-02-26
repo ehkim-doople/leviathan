@@ -24,8 +24,12 @@ CFileProc::~CFileProc()
 
 bool CFileProc::init(char *pReadFilePath, unsigned int nSize)
 {
+	m_pFilePathName = pReadFilePath;
 	m_nFileSize = CFileUtil::readNalloc(pReadFilePath, &m_szFileBuf, nSize);
 	if (!m_nFileSize) return false;
+	if (m_nFileSize != nSize) {
+		g_stConfig.pReport->LogPrint(LEVEL_ERROR, "Does not mactch!  %s, m_nFileSize[%u] nSize[%u]", pReadFilePath, m_nFileSize, nSize);
+	}
 	m_szLine.pSource = m_szFileBuf.pValue;
 	m_szLine.pStart = g_stConfig.pLineStartKey;
 	m_szLine.pEnd = g_stConfig.pLineEndKey;
@@ -43,10 +47,12 @@ void CFileProc::FileProc()
 	int nLineCount = 0;
 	char *pNextLine;
 
-	while (CFileUtil::getNextLine(&m_szLine)) {
+	int nLineSize = CFileUtil::getNextLine(&m_szLine);
+	while (1) {
 		pNextLine = m_szLine.m_szLineBuf.pValue;
 		parsingTimeLog(pNextLine, &g_stConfig.stCurTime, g_stConfig.pDTE);
 
+		nLineCount++;
 		if (!g_pHandle->parsingLine(pNextLine)) {
 			printf(m_szLine.m_szLineBuf.pValue);
 			printf("\n");
@@ -54,9 +60,12 @@ void CFileProc::FileProc()
 			comErrorPrint(g_szMessage);
 			return;
 		}
-		nLineCount++;
+		if (!nLineSize) break;
+		nLineSize = CFileUtil::getNextLine(&m_szLine);
 	}
 	setEndingTime(&g_stConfig.stEndTime, &g_stConfig.stCurTime);
+	g_stConfig.pReport->LogPrint(LEVEL_INFO, "parsing complete!  %s, nLineCount[%d]", m_pFilePathName, nLineCount);
+	g_stConfig.pReport->LogPrint(LEVEL_INFO, "%s", pNextLine);
 }
 
 
