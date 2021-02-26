@@ -1,0 +1,51 @@
+### REPORT ### 
+
+  Analyzer run time : [0]hours [0]minutes [0]seconds [806]milliseconds
+  Duration of log accumulation : [0] days [15]hours [30]minutes [24]seconds [90]milliseconds
+
+
+################################################# 
+  KeyValue Report : 
+################################################# 
+Key[Parameter]	nTotCount[431991] Average[8.797894] Max[63] min[0] : 
+		nExpectedCount[432000] Difference[-9] ratio[99.997917]: 
+		KeyValue[procTotTime] report : nValue[0] nTotCount[225778] percent[52.264519]
+		KeyValue[procTotTime] report : nValue[15] nTotCount[62969] percent[14.576461]
+		KeyValue[procTotTime] report : nValue[16] nTotCount[106306] percent[24.608383]
+		KeyValue[procTotTime] report : nValue[31] nTotCount[27670] percent[6.405226]
+		KeyValue[procTotTime] report : nValue[32] nTotCount[9215] percent[2.133146]
+		KeyValue[procTotTime] report : nValue[47] nTotCount[41] percent[0.009491]
+		KeyValue[procTotTime] report : nValue[46] nTotCount[9] percent[0.002083]
+		KeyValue[procTotTime] report : nValue[63] nTotCount[3] percent[0.000694]
+
+Key[Event]	nTotCount[129601] Average[0.450166] Max[32] min[-1] : 
+		nExpectedCount[129600] Difference[1] ratio[100.000778]: 
+		KeyValue[procTotTime] report : nValue[0] nTotCount[125869] percent[97.120392]
+		KeyValue[procTotTime] report : nValue[16] nTotCount[2311] percent[1.783165]
+		KeyValue[procTotTime] report : nValue[15] nTotCount[1416] percent[1.092584]
+		KeyValue[procTotTime] report : nValue[32] nTotCount[3] percent[0.002315]
+		KeyValue[procTotTime] report : nValue[31] nTotCount[1] percent[0.000772]
+		KeyValue[procTotTime] report : nValue[-1] nTotCount[1] percent[0.000772]
+
+Key[threadSend]	nTotCount[13974] Average[15.616645] Max[16] min[0] : 
+		nExpectedCount[561600] Difference[-547626] ratio[2.488248]: 
+		KeyValue[procTime] report : nValue[15] nTotCount[5357] percent[38.335480]
+		KeyValue[procTime] report : nValue[16] nTotCount[8617] percent[61.664520]
+
+Key[CComunicator::Send]	nTotCount[147236] Average[15.647688] Max[47] min[0] : 
+		nExpectedCount[561600] Difference[-414364] ratio[26.217237]: 
+		KeyValue[procTime] report : nValue[15] nTotCount[54689] percent[37.143768]
+		KeyValue[procTime] report : nValue[16] nTotCount[92376] percent[62.740093]
+		KeyValue[procTime] report : nValue[31] nTotCount[129] percent[0.087614]
+		KeyValue[procTime] report : nValue[32] nTotCount[28] percent[0.019017]
+		KeyValue[procTime] report : nValue[47] nTotCount[13] percent[0.008829]
+		KeyValue[procTime] report : nValue[46] nTotCount[1] percent[0.000679]
+
+
+
+################################################# 
+  ExtractNToFile Report : 
+################################################# 
+
+[0] Extract Report : keyword[ERROR] nTotCount[392]
+[1] Extract Report : keyword[WSA_IO_PENDING] nTotCount[4]

@@ -1,0 +1,39 @@
+### REPORT ### 
+
+  Analyzer run time : [0]hours [0]minutes [2]seconds [125]milliseconds
+  Duration of log accumulation : [1] days [15]hours [30]minutes [24]seconds [90]milliseconds
+
+
+################################################# 
+  KeyValue Report : 
+################################################# 
+Key[Parameter]	nTotCount[431991] Average[8.797894] Max[63] min[0] : 
+		KeyValue[procTotTime] report : nValue[0] nTotCount[225778] percent[52.264519]
+		KeyValue[procTotTime] report : nValue[15] nTotCount[62969] percent[14.576461]
+		KeyValue[procTotTime] report : nValue[16] nTotCount[106306] percent[24.608383]
+		KeyValue[procTotTime] report : nValue[31] nTotCount[27670] percent[6.405226]
+		KeyValue[procTotTime] report : nValue[32] nTotCount[9215] percent[2.133146]
+		KeyValue[procTotTime] report : nValue[47] nTotCount[41] percent[0.009491]
+		KeyValue[procTotTime] report : nValue[46] nTotCount[9] percent[0.002083]
+		KeyValue[procTotTime] report : nValue[63] nTotCount[3] percent[0.000694]
+
+Key[Event]	nTotCount[129601] Average[0.450166] Max[32] min[-1] : 
+		KeyValue[procTotTime] report : nValue[0] nTotCount[125869] percent[97.120392]
+		KeyValue[procTotTime] report : nValue[16] nTotCount[2311] percent[1.783165]
+		KeyValue[procTotTime] report : nValue[15] nTotCount[1416] percent[1.092584]
+		KeyValue[procTotTime] report : nValue[32] nTotCount[3] percent[0.002315]
+		KeyValue[procTotTime] report : nValue[31] nTotCount[1] percent[0.000772]
+		KeyValue[procTotTime] report : nValue[-1] nTotCount[1] percent[0.000772]
+
+Key[threadSend]	nTotCount[13974] Average[15.616645] Max[16] min[0] : 
+		KeyValue[procTime] report : nValue[15] nTotCount[5357] percent[38.335480]
+		KeyValue[procTime] report : nValue[16] nTotCount[8617] percent[61.664520]
+
+
+
+################################################# 
+  ExtractNToFile Report : 
+################################################# 
+
+[0] Extract Report : keyword[ERROR] nTotCount[0]
+[1] Extract Report : keyword[WSA_IO_PENDING] nTotCount[0]
