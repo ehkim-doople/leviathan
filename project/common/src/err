@@ -1,0 +1,15 @@
+hash.c:26:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #define _GNU_SOURCE
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+hash.c: In function ‘void hash_empty(hash*)’:
+hash.c:94:30: warning: argument to ‘sizeof’ in ‘void* memset(void*, int, size_t)’ call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+  memset(h->hashtab, 0, sizeof(h->hashtab));
+                              ^
+hash.c: In function ‘char* hash_string(hash*)’:
+hash.c:179:33: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      res |= add_string(&buf, "=");
+                                 ^
+hash.c:184:34: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+      res |= add_string(&buf, "\n");
+                                  ^

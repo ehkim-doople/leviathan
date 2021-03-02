@@ -70,23 +70,23 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>../Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
-    <IntDir>./iocp\obj/$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>..\Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
+    <IntDir>.\iocp\obj\$(Configuration)\$(Platform)\</IntDir>
     <TargetName>ehNet</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>../Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
-    <IntDir>./iocp\obj/$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>..\Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
+    <IntDir>.\iocp\obj\$(Configuration)\$(Platform)\</IntDir>
     <TargetName>ehNet</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>../Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
-    <IntDir>./iocp\obj/$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>..\Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
+    <IntDir>.\iocp\obj\$(Configuration)\$(Platform)\</IntDir>
     <TargetName>ehNet</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>../Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
-    <IntDir>./iocp\obj/$(Configuration)\$(Platform)\</IntDir>
+    <OutDir>..\Lib\$(Platform)\$(Configuration)\iocp\</OutDir>
+    <IntDir>.\iocp\obj\$(Configuration)\$(Platform)\</IntDir>
     <TargetName>ehNet</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -96,7 +96,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;WIN32;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\iocp\include\;../com\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\iocp\include\;..\common\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -105,7 +105,7 @@
       <AdditionalDependencies>ehcom.lib;mswsock.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>../Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -115,7 +115,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\iocp\include\;../com\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\iocp\include\;..\common\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -124,7 +124,7 @@
       <AdditionalDependencies>ehcom.lib;mswsock.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>../Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -136,7 +136,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;WIN32;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\iocp\include\;../com\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\iocp\include\;..\common\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -147,7 +147,7 @@
       <AdditionalDependencies>ehcom.lib;mswsock.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>../Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -159,7 +159,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\iocp\include\;../com\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\iocp\include\;..\common\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -170,7 +170,7 @@
       <AdditionalDependencies>ehcom.lib;mswsock.lib;</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>../Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
