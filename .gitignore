@@ -30,15 +30,7 @@
 *.exe
 *.out
 *.app
-*.iobj
-*.iobj
-*.ipdb
 *.tlog
-<<<<<<< Updated upstream
-*.iobj
-project/bin/Win32/Release/LogAnalysor3.iobj
-project/bin/Win32/Release/LogAnalysor3.ipdb
-=======
 *.cod
 *.log
 *.idb
@@ -46,9 +38,4 @@ project/bin/Win32/Release/LogAnalysor3.ipdb
 *.ipdb
 *.ilk
 *.db
-*.db
->>>>>>> Stashed changes
-*.ilk
-*.iobj
-*.ipdb
 *.opendb
