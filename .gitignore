@@ -48,3 +48,7 @@ project/bin/Win32/Release/LogAnalysor3.ipdb
 *.db
 *.db
 >>>>>>> Stashed changes
+*.ilk
+*.iobj
+*.ipdb
+*.opendb
