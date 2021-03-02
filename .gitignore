@@ -3,6 +3,10 @@
 *.lo
 *.o
 *.obj
+*.cod
+*.pdb
+*.idb
+*.log
 
 # Precompiled Headers
 *.gch
@@ -26,19 +30,14 @@
 *.exe
 *.out
 *.app
-<<<<<<< HEAD
-*.pdb
-=======
->>>>>>> dev
 *.tlog
 *.cod
 *.log
 *.idb
-<<<<<<< HEAD
-=======
 *.iobj
 *.ipdb
 *.ilk
 *.db
 *.opendb
->>>>>>> dev
+
+
